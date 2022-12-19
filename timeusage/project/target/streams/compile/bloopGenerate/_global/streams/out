@@ -1,0 +1,4 @@
+[debug] [timeusage-build] Classpath dependencies List()
+[debug] [timeusage-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'timeusage-build' to '/Users/saianoop/Documents/Big Data/timeusage/project/.bloop/timeusage-build.json'
+[success] Generated .bloop/timeusage-build.json

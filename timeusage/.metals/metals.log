@@ -1,0 +1,547 @@
+2022.12.05 18:19:46 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/lsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.05 18:19:47 INFO  logging to file /Users/saianoop/Documents/Big Data/timeusage/.metals/metals.log
+2022.12.05 18:19:47 INFO  Started: Metals version 0.11.9 in workspace '/Users/saianoop/Documents/Big Data/timeusage' for client Visual Studio Code 1.73.1.
+2022.12.05 18:19:51 INFO  time: initialize in 3.29s
+2022.12.05 18:20:00 WARN  Build server is not auto-connectable.
+2022.12.05 18:20:00 WARN  no build target for: /Users/saianoop/Documents/Big Data/timeusage/src/test/scala/timeusage/TimeUsageSuite.scala
+2022.12.05 18:20:00 WARN  no build target for: /Users/saianoop/Documents/Big Data/timeusage/src/main/scala/timeusage/TimeUsage.scala
+2022.12.05 18:20:06 INFO  running '/Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.7.1 -jar /var/folders/4p/q__46jps0299_v9st9dnyj3c0000gn/T/metals2570965963511312930/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.12.05 18:20:06 WARN  no build target for: /Users/saianoop/Documents/Big Data/timeusage/project/project/metals.sbt
+2022.12.05 18:20:06 WARN  no build target for: /Users/saianoop/Documents/Big Data/timeusage/project/metals.sbt
+2022.12.05 18:20:06 INFO  skipping build import with status 'Started'
+2022.12.05 18:20:12 INFO  [info] Updated file /Users/saianoop/Documents/Big Data/timeusage/project/build.properties: set sbt.version to 1.7.1
+2022.12.05 18:20:12 INFO  [info] welcome to sbt 1.7.1 (AdoptOpenJDK Java 11.0.11)
+2022.12.05 18:20:18 INFO  [info] loading global plugins from /Users/saianoop/.sbt/1.0/plugins
+2022.12.05 18:20:18 INFO  no build target found for /Users/saianoop/Documents/Big Data/timeusage/src/main/scala/timeusage/TimeUsage.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.05 18:20:27 INFO  time: code lens generation in 26s
+2022.12.05 18:20:33 INFO  [info] loading settings for project timeusage-build-build from metals.sbt ...
+2022.12.05 18:20:33 INFO  [info] loading project definition from /Users/saianoop/Documents/Big Data/timeusage/project/project
+2022.12.05 18:20:38 INFO  [info] loading settings for project timeusage-build from metals.sbt ...
+2022.12.05 18:20:38 INFO  [info] loading project definition from /Users/saianoop/Documents/Big Data/timeusage/project
+2022.12.05 18:20:41 INFO  [success] Generated .bloop/timeusage-build.json
+2022.12.05 18:20:41 INFO  [success] Total time: 3 s, completed 05-Dec-2022, 6:20:41 PM
+2022.12.05 18:20:45 INFO  [info] loading settings for project timeusage from build.sbt ...
+2022.12.05 18:20:45 INFO  [info] set current project to Time Usage (in build file:/Users/saianoop/Documents/Big%20Data/timeusage/)
+2022.12.05 18:21:02 INFO  [success] Generated .bloop/timeusage-test.json
+2022.12.05 18:21:02 INFO  [success] Generated .bloop/timeusage.json
+2022.12.05 18:21:02 INFO  [success] Total time: 16 s, completed 05-Dec-2022, 6:21:02 PM
+2022.12.05 18:21:02 INFO  time: ran 'sbt bloopInstall' in 56s
+2022.12.05 18:21:02 INFO  Attempting to connect to the build server...
+2022.12.05 18:21:02 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.05 18:21:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 18:21:12 INFO  Attempting to connect to the build server...
+2022.12.05 18:21:12 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.05 18:21:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/project/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 18:21:12 INFO  time: Connected to build server in 10s
+2022.12.05 18:21:13 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.05 18:21:13 INFO  time: Imported build in 0.41s
+2022.12.05 18:21:30 INFO  time: indexed workspace in 17s
+2022.12.05 18:21:32 INFO  compiling timeusage (1 scala source)
+2022.12.05 18:22:16 INFO  compiling timeusage-test (1 scala source)
+2022.12.05 18:22:16 INFO  time: compiled timeusage in 44s
+2022.12.05 18:22:19 INFO  time: compiled timeusage-test in 3.26s
+2022.12.06 10:05:06 INFO  time: code lens generation in 1.16s
+2022.12.06 13:32:54 INFO  shutting down Metals
+Dec 06, 2022 1:32:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:119)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 9 more
+
+2022.12.06 13:40:04 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/lsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.06 13:40:05 INFO  logging to file /Users/saianoop/Documents/Big Data/timeusage/.metals/metals.log
+2022.12.06 13:40:05 INFO  Started: Metals version 0.11.9 in workspace '/Users/saianoop/Documents/Big Data/timeusage' for client Visual Studio Code 1.73.1.
+2022.12.06 13:40:08 INFO  time: initialize in 2.73s
+2022.12.06 13:40:15 INFO  Attempting to connect to the build server...
+2022.12.06 13:40:15 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.06 13:40:15 INFO  skipping build import with status 'Installed'
+2022.12.06 13:40:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.06 13:40:16 INFO  Attempting to connect to the build server...
+2022.12.06 13:40:16 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.06 13:40:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/project/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.06 13:40:16 INFO  time: Connected to build server in 2.42s
+2022.12.06 13:40:16 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.06 13:40:26 INFO  no build target found for /Users/saianoop/Documents/Big Data/timeusage/src/main/scala/timeusage/TimeUsage.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.06 13:40:26 INFO  time: code lens generation in 11s
+2022.12.06 13:40:26 INFO  time: Imported build in 0.37s
+2022.12.06 13:40:42 INFO  time: indexed workspace in 15s
+Dec 06, 2022 1:40:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1670352044258,
+    "message": "Compiled \u0027timeusage\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/Users/saianoop/Documents/Big%20Data/timeusage/?id\u003dtimeusage"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///Users/saianoop/Documents/Big%20Data/timeusage/.bloop/timeusage/bloop-bsp-clients-classes/classes-Metals-iFgAsoW2QGi2o6N9uYL4yA\u003d\u003d/",
+      "analysisOut": "file:///Users/saianoop/Documents/Big%20Data/timeusage/.bloop/timeusage/timeusage-analysis.bin"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:251)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:249)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:249)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:248)
+	at scala.collection.mutable.HashSet$Node.foreach(HashSet.scala:435)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:361)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:248)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$14(MetalsLanguageServer.scala:456)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$14$adapted(MetalsLanguageServer.scala:454)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:160)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:157)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:156)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:156)
+	... 16 more
+
+2022.12.06 13:42:26 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:42:28 INFO  time: compiled timeusage in 1.77s
+2022.12.06 13:42:32 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:42:38 WARN  9 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.12.06 13:42:38 INFO  time: compiled timeusage in 6.43s
+2022.12.06 13:43:31 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:43:34 WARN  9 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.12.06 13:43:34 INFO  time: compiled timeusage in 3.66s
+2022.12.06 13:44:46 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:44:52 WARN  12 deprecations (since 2.13.0)
+2022.12.06 13:44:52 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:44:52 WARN  15 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:44:52 INFO  time: compiled timeusage in 5.97s
+2022.12.06 13:49:52 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:50:00 WARN  12 deprecations (since 2.13.0)
+2022.12.06 13:50:00 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:50:00 WARN  15 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:50:00 INFO  time: compiled timeusage in 8.84s
+2022.12.06 13:50:20 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:50:24 WARN  12 deprecations (since 2.13.0)
+2022.12.06 13:50:24 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:50:24 WARN  15 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:50:24 INFO  time: compiled timeusage in 4.04s
+2022.12.06 13:51:34 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:51:36 INFO  time: compiled timeusage in 1.73s
+2022.12.06 13:53:01 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:53:05 WARN  12 deprecations (since 2.13.0)
+2022.12.06 13:53:05 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:53:05 WARN  15 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:53:05 INFO  time: compiled timeusage in 3.96s
+2022.12.06 13:53:35 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:53:38 WARN  12 deprecations (since 2.13.0)
+2022.12.06 13:53:38 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:53:38 WARN  15 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:53:38 INFO  time: compiled timeusage in 3.48s
+2022.12.06 13:54:10 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:54:12 INFO  time: compiled timeusage in 1.18s
+2022.12.06 13:54:59 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:55:03 WARN  13 deprecations (since 2.13.0)
+2022.12.06 13:55:03 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:55:03 WARN  16 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:55:03 INFO  time: compiled timeusage in 3.89s
+2022.12.06 13:55:47 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:55:50 WARN  13 deprecations (since 2.13.0)
+2022.12.06 13:55:50 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:55:50 WARN  16 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:55:50 INFO  time: compiled timeusage in 3.56s
+2022.12.06 13:56:07 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:56:10 WARN  13 deprecations (since 2.13.0)
+2022.12.06 13:56:10 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:56:10 WARN  16 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:56:10 INFO  time: compiled timeusage in 3.35s
+2022.12.06 13:57:41 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:57:45 WARN  16 deprecations (since 2.13.0)
+2022.12.06 13:57:45 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:57:45 WARN  19 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:57:45 INFO  time: compiled timeusage in 3.78s
+2022.12.06 13:57:55 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:57:58 WARN  18 deprecations (since 2.13.0)
+2022.12.06 13:57:58 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:57:58 WARN  21 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:57:58 INFO  time: compiled timeusage in 2.96s
+2022.12.06 13:58:11 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:58:14 WARN  18 deprecations (since 2.13.0)
+2022.12.06 13:58:14 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:58:14 WARN  21 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:58:14 INFO  time: compiled timeusage in 3.38s
+2022.12.06 13:58:22 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:58:26 WARN  18 deprecations (since 2.13.0)
+2022.12.06 13:58:26 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:58:26 WARN  21 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:58:26 INFO  time: compiled timeusage in 4.3s
+2022.12.06 13:58:34 INFO  compiling timeusage (1 scala source)
+2022.12.06 13:58:36 WARN  18 deprecations (since 2.13.0)
+2022.12.06 13:58:36 WARN  3 deprecations (since 3.0.0)
+2022.12.06 13:58:36 WARN  21 deprecations in total; re-run with -deprecation for details
+2022.12.06 13:58:36 INFO  time: compiled timeusage in 2.81s
+2022.12.06 14:04:57 INFO  Deduplicating compilation of timeusage from bsp client 'Metals 0.11.9' (since 24m 39.786s)
+2022.12.06 14:04:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-server.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 14:04:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-client.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 14:04:58 INFO  Starting debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:05:05 INFO  Deduplicating compilation of timeusage from bsp client 'Metals 0.11.9' (since 24m 48.35s)
+2022.12.06 14:05:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-server.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 14:05:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-client.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 14:05:06 INFO  Starting debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:05:06 INFO  Trying to attach to remote debuggee VM localhost:55095 .
+2022.12.06 14:05:06 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 14:05:10 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2022.12.06 14:05:11 INFO  Trying to attach to remote debuggee VM localhost:55102 .
+2022.12.06 14:05:11 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 14:05:11 ERROR WARNING: An illegal reflective access operation has occurred
+2022.12.06 14:05:11 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/Users/saianoop/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2022.12.06 14:05:11 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2022.12.06 14:05:11 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2022.12.06 14:05:11 ERROR WARNING: All illegal access operations will be denied in a future release
+2022.12.06 14:05:12 ERROR Exception in thread "main" java.lang.RuntimeException: 
+2022.12.06 14:05:12 ERROR /////////////////////////////////////////////////////////////////
+2022.12.06 14:05:12 ERROR //                                                             //
+2022.12.06 14:05:12 ERROR //                 !!! ATTENTION !!!                           //
+2022.12.06 14:05:12 ERROR //                                                             //
+2022.12.06 14:05:12 ERROR //  You must download the dataset file `atussum.csv.bz2`,      //
+2022.12.06 14:05:12 ERROR //  unzip it, and put it in the `src/main/resources/timeusage` //
+2022.12.06 14:05:12 ERROR //  directory, as explained in the project instructions.       //
+2022.12.06 14:05:12 ERROR //                                                             //
+2022.12.06 14:05:12 ERROR /////////////////////////////////////////////////////////////////
+2022.12.06 14:05:12 ERROR 	at scala.sys.package$.error(package.scala:27)
+2022.12.06 14:05:12 ERROR 	at timeusage.TimeUsage$.fsPath(TimeUsage.scala:108)
+2022.12.06 14:05:12 ERROR 	at timeusage.TimeUsage$.read(TimeUsage.scala:78)
+2022.12.06 14:05:12 ERROR 	at timeusage.TimeUsage$.main(TimeUsage.scala:30)
+2022.12.06 14:05:12 ERROR 	at timeusage.TimeUsage.main(TimeUsage.scala)
+2022.12.06 14:05:12 INFO  Closing debug server tcp://0.0.0.0:55079
+2022.12.06 14:05:12 ERROR Read data from io exception: java.net.SocketException: Socket closed
+2022.12.06 14:05:13 INFO  Canceling debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:05:12 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2022.12.06 14:05:14 ERROR WARNING: An illegal reflective access operation has occurred
+2022.12.06 14:05:14 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/Users/saianoop/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2022.12.06 14:05:14 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2022.12.06 14:05:14 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2022.12.06 14:05:14 ERROR WARNING: All illegal access operations will be denied in a future release
+2022.12.06 14:05:14 ERROR Exception in thread "main" java.lang.RuntimeException: 
+2022.12.06 14:05:14 ERROR /////////////////////////////////////////////////////////////////
+2022.12.06 14:05:14 ERROR //                                                             //
+2022.12.06 14:05:14 ERROR //                 !!! ATTENTION !!!                           //
+2022.12.06 14:05:14 ERROR //                                                             //
+2022.12.06 14:05:14 ERROR //  You must download the dataset file `atussum.csv.bz2`,      //
+2022.12.06 14:05:14 ERROR //  unzip it, and put it in the `src/main/resources/timeusage` //
+2022.12.06 14:05:14 ERROR //  directory, as explained in the project instructions.       //
+2022.12.06 14:05:14 ERROR //                                                             //
+2022.12.06 14:05:14 ERROR /////////////////////////////////////////////////////////////////
+2022.12.06 14:05:14 ERROR 	at scala.sys.package$.error(package.scala:27)
+2022.12.06 14:05:14 ERROR 	at timeusage.TimeUsage$.fsPath(TimeUsage.scala:108)
+2022.12.06 14:05:14 ERROR 	at timeusage.TimeUsage$.read(TimeUsage.scala:78)
+2022.12.06 14:05:15 ERROR 	at timeusage.TimeUsage$.main(TimeUsage.scala:30)
+2022.12.06 14:05:15 ERROR 	at timeusage.TimeUsage.main(TimeUsage.scala)
+2022.12.06 14:05:15 INFO  Closing debug server tcp://0.0.0.0:55092
+2022.12.06 14:05:15 INFO  Canceling debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:12:57 INFO  Deduplicating compilation of timeusage from bsp client 'Metals 0.11.9' (since 32m 39.963s)
+Dec 06, 2022 2:12:57 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.12.06 14:12:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-server.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 14:12:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-client.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 14:12:58 INFO  Starting debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:13:04 INFO  Trying to attach to remote debuggee VM localhost:55269 .
+2022.12.06 14:13:04 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 14:13:07 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2022.12.06 14:13:08 ERROR WARNING: An illegal reflective access operation has occurred
+2022.12.06 14:13:08 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/Users/saianoop/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2022.12.06 14:13:08 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2022.12.06 14:13:08 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2022.12.06 14:13:08 ERROR WARNING: All illegal access operations will be denied in a future release
+2022.12.06 14:13:09 ERROR Exception in thread "main" java.lang.RuntimeException: 
+2022.12.06 14:13:09 ERROR /////////////////////////////////////////////////////////////////
+2022.12.06 14:13:09 ERROR //                                                             //
+2022.12.06 14:13:09 ERROR //                 !!! ATTENTION !!!                           //
+2022.12.06 14:13:09 ERROR //                                                             //
+2022.12.06 14:13:09 ERROR //  You must download the dataset file `atussum.csv.bz2`,      //
+2022.12.06 14:13:09 ERROR //  unzip it, and put it in the `src/main/resources/timeusage` //
+2022.12.06 14:13:09 ERROR //  directory, as explained in the project instructions.       //
+2022.12.06 14:13:09 ERROR //                                                             //
+2022.12.06 14:13:09 ERROR /////////////////////////////////////////////////////////////////
+2022.12.06 14:13:09 ERROR 	at scala.sys.package$.error(package.scala:27)
+2022.12.06 14:13:09 ERROR 	at timeusage.TimeUsage$.fsPath(TimeUsage.scala:108)
+2022.12.06 14:13:09 ERROR 	at timeusage.TimeUsage$.read(TimeUsage.scala:78)
+2022.12.06 14:13:09 ERROR 	at timeusage.TimeUsage$.main(TimeUsage.scala:30)
+2022.12.06 14:13:09 ERROR 	at timeusage.TimeUsage.main(TimeUsage.scala)
+2022.12.06 14:13:09 INFO  Closing debug server tcp://0.0.0.0:55264
+2022.12.06 14:13:10 INFO  Canceling debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:15:21 INFO  Deduplicating compilation of timeusage from bsp client 'Metals 0.11.9' (since 35m 4.683s)
+2022.12.06 14:15:22 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-server.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 14:15:22 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-client.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 14:15:22 INFO  Starting debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:15:26 INFO  Trying to attach to remote debuggee VM localhost:55306 .
+2022.12.06 14:15:26 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 14:15:28 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2022.12.06 14:15:28 ERROR WARNING: An illegal reflective access operation has occurred
+2022.12.06 14:15:28 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/Users/saianoop/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2022.12.06 14:15:29 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2022.12.06 14:15:29 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2022.12.06 14:15:29 ERROR WARNING: All illegal access operations will be denied in a future release
+2022.12.06 14:15:56 INFO  Canceling debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:15:56 INFO  Closing debug server tcp://0.0.0.0:55302
+Dec 06, 2022 2:15:56 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:146)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2022.12.06 14:16:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-server.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 14:16:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-client.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 14:16:19 INFO  Starting debug proxy for [timeusage.TimeUsageSuite()]
+2022.12.06 14:16:27 INFO  Trying to attach to remote debuggee VM localhost:55344 .
+2022.12.06 14:16:27 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 14:16:30 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2022.12.06 14:16:30 ERROR WARNING: An illegal reflective access operation has occurred
+2022.12.06 14:16:30 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/Users/saianoop/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2022.12.06 14:16:30 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2022.12.06 14:16:30 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2022.12.06 14:16:30 ERROR WARNING: All illegal access operations will be denied in a future release
+2022.12.06 14:17:25 INFO  Canceling debug proxy for [timeusage.TimeUsageSuite()]
+2022.12.06 14:17:25 INFO  Closing debug server tcp://0.0.0.0:55336
+2022.12.06 14:18:59 INFO  Deduplicating compilation of timeusage from bsp client 'Metals 0.11.9' (since 38m 42.256s)
+2022.12.06 14:19:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-server.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 14:19:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/dap-client.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 14:19:00 INFO  Starting debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:19:09 INFO  Trying to attach to remote debuggee VM localhost:55387 .
+2022.12.06 14:19:09 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 14:19:11 ERROR Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+2022.12.06 14:19:11 ERROR WARNING: An illegal reflective access operation has occurred
+2022.12.06 14:19:11 ERROR WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/Users/saianoop/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.13/3.3.1/spark-unsafe_2.13-3.3.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+2022.12.06 14:19:11 ERROR WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+2022.12.06 14:19:11 ERROR WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+2022.12.06 14:19:11 ERROR WARNING: All illegal access operations will be denied in a future release
+2022.12.06 14:19:39 INFO  Canceling debug proxy for [timeusage.TimeUsage]
+2022.12.06 14:19:40 INFO  Closing debug server tcp://0.0.0.0:55381
+2022.12.06 15:38:09 INFO  shutting down Metals
+2022.12.06 15:38:11 INFO  Shut down connection with build server.
+2022.12.06 15:38:11 INFO  Shut down connection with build server.
+2022.12.06 15:40:13 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/lsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.06 15:40:14 INFO  logging to file /Users/saianoop/Documents/Big Data/timeusage/.metals/metals.log
+2022.12.06 15:40:14 INFO  Started: Metals version 0.11.9 in workspace '/Users/saianoop/Documents/Big Data/timeusage' for client Visual Studio Code 1.73.1.
+2022.12.06 15:40:17 INFO  time: initialize in 2.55s
+2022.12.06 15:40:22 INFO  Attempting to connect to the build server...
+2022.12.06 15:40:22 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.06 15:40:22 INFO  skipping build import with status 'Installed'
+2022.12.06 15:40:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.06 15:40:23 INFO  Attempting to connect to the build server...
+2022.12.06 15:40:23 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.06 15:40:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/project/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.06 15:40:23 INFO  time: Connected to build server in 2.01s
+2022.12.06 15:40:23 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.06 15:40:30 INFO  no build target found for /Users/saianoop/Documents/Big Data/timeusage/src/test/scala/timeusage/TimeUsageSuite.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.06 15:40:30 INFO  time: code lens generation in 7.19s
+2022.12.06 15:40:31 INFO  time: Imported build in 0.29s
+2022.12.06 15:40:38 INFO  time: indexed workspace in 7.32s
+2022.12.06 15:41:39 INFO  shutting down Metals
+2022.12.06 15:41:39 INFO  Shut down connection with build server.
+2022.12.06 15:41:39 INFO  Shut down connection with build server.
+2022.12.06 17:37:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/lsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.06 17:37:22 INFO  logging to file /Users/saianoop/Documents/Big Data/timeusage/.metals/metals.log
+2022.12.06 17:37:22 INFO  Started: Metals version 0.11.9 in workspace '/Users/saianoop/Documents/Big Data/timeusage' for client Visual Studio Code 1.73.1.
+2022.12.06 17:37:24 INFO  time: initialize in 1.91s
+2022.12.06 17:37:31 INFO  Attempting to connect to the build server...
+2022.12.06 17:37:31 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+Dec 06, 2022 5:37:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.12.06 17:37:31 INFO  skipping build import with status 'Installed'
+Dec 06, 2022 5:37:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2022.12.06 17:37:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.06 17:37:32 INFO  Attempting to connect to the build server...
+2022.12.06 17:37:32 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.06 17:37:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/project/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.06 17:37:33 INFO  time: Connected to build server in 1.82s
+2022.12.06 17:37:33 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.06 17:37:38 INFO  no build target found for /Users/saianoop/Documents/Big Data/timeusage/src/main/scala/timeusage/TimeUsage.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.06 17:37:38 INFO  time: code lens generation in 6.77s
+2022.12.06 17:37:39 INFO  time: Imported build in 0.25s
+2022.12.06 17:37:46 INFO  time: indexed workspace in 6.98s
+2022.12.06 21:02:23 INFO  shutting down Metals
+2022.12.06 21:02:24 INFO  Shut down connection with build server.
+2022.12.06 21:02:24 INFO  Shut down connection with build server.
+2022.12.06 21:23:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/lsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.06 21:23:39 INFO  logging to file /Users/saianoop/Documents/Big Data/timeusage/.metals/metals.log
+2022.12.06 21:23:39 INFO  Started: Metals version 0.11.9 in workspace '/Users/saianoop/Documents/Big Data/timeusage' for client Visual Studio Code 1.73.1.
+2022.12.06 21:23:41 INFO  time: initialize in 1.62s
+2022.12.06 21:23:46 INFO  Attempting to connect to the build server...
+2022.12.06 21:23:46 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.06 21:23:46 INFO  skipping build import with status 'Installed'
+Dec 06, 2022 9:23:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Dec 06, 2022 9:23:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2022.12.06 21:23:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.06 21:23:53 INFO  Attempting to connect to the build server...
+2022.12.06 21:23:53 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.06 21:23:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/project/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.06 21:23:53 INFO  time: Connected to build server in 7.95s
+2022.12.06 21:23:53 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.06 21:23:55 INFO  no build target found for /Users/saianoop/Documents/Big Data/timeusage/src/test/scala/timeusage/TimeUsageSuite.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.06 21:23:55 INFO  time: code lens generation in 8.29s
+2022.12.06 21:23:56 INFO  time: Imported build in 0.27s
+2022.12.06 21:24:03 INFO  time: indexed workspace in 7.32s
+2022.12.06 21:24:04 INFO  compiling timeusage (1 scala source)
+2022.12.06 21:24:16 WARN  18 deprecations (since 2.13.0)
+2022.12.06 21:24:16 WARN  3 deprecations (since 3.0.0)
+2022.12.06 21:24:16 WARN  21 deprecations in total; re-run with -deprecation for details
+2022.12.06 21:24:16 INFO  compiling timeusage-test (1 scala source)
+2022.12.06 21:24:16 INFO  time: compiled timeusage in 12s
+2022.12.06 21:24:18 INFO  time: compiled timeusage-test in 1.69s
+2022.12.06 21:24:54 INFO  shutting down Metals
+2022.12.06 21:24:54 INFO  Shut down connection with build server.
+2022.12.06 21:24:54 INFO  Shut down connection with build server.
+2022.12.08 22:50:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/lsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.08 22:50:15 INFO  logging to file /Users/saianoop/Documents/Big Data/timeusage/.metals/metals.log
+2022.12.08 22:50:15 INFO  Started: Metals version 0.11.9 in workspace '/Users/saianoop/Documents/Big Data/timeusage' for client Visual Studio Code 1.74.0.
+2022.12.08 22:50:17 INFO  time: initialize in 1.79s
+2022.12.08 22:50:23 INFO  Attempting to connect to the build server...
+2022.12.08 22:50:23 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.08 22:50:24 INFO  skipping build import with status 'Installed'
+2022.12.08 22:50:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.08 22:50:26 INFO  Attempting to connect to the build server...
+2022.12.08 22:50:26 INFO  Bloop uses /Users/saianoop/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/saianoop/.bloop/bloop.json
+2022.12.08 22:50:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/saianoop/Documents/Big Data/timeusage/project/.metals/bsp.trace.json or /Users/saianoop/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.08 22:50:26 INFO  time: Connected to build server in 3.21s
+2022.12.08 22:50:26 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.08 22:50:27 INFO  time: Imported build in 0.47s
+Dec 08, 2022 10:50:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Dec 08, 2022 10:50:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Dec 08, 2022 10:50:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2022.12.08 22:50:38 INFO  time: indexed workspace in 10s
+2022.12.09 14:19:35 INFO  shutting down Metals
+Dec 09, 2022 2:19:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:119)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 9 more
+
+2022.12.09 14:19:35 INFO  Shut down connection with build server.
+Dec 09, 2022 2:19:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy10.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:119)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 9 more
+
+2022.12.09 14:19:35 INFO  Shut down connection with build server.

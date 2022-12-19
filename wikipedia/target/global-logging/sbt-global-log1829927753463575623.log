@@ -1,0 +1,123 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[info] Updated file /Users/saianoop/Downloads/wikipedia/project/build.properties: set sbt.version to 1.6.2
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 18.0.2.1)
+[debug]       Load.loadUnit: plugins took 162.390792ms
+[debug]       Load.loadUnit: defsScala took 0.347625ms
+[debug] [Loading] Scanning directory /Users/saianoop/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/saianoop/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 36.876625 ms
+[debug]           Load.resolveProject(global-plugins) took 71.456958ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/saianoop/.sbt/1.0/plugins, plugins: List(<none>))) took 132.299208ms
+[debug] [Loading] Done in /Users/saianoop/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 291.123792ms
+[debug]       Load.loadUnit: cleanEvalClasses took 2.892375ms
+[debug]     Load.loadUnit(file:/Users/saianoop/.sbt/1.0/plugins/, ...) took 500.003875ms
+[debug]   Load.apply: load took 948.587417ms
+[debug]   Load.apply: resolveProjects took 4.853417ms
+[debug]   Load.apply: finalTransforms took 142.779083ms
+[debug]   Load.apply: config.delegates took 7.667042ms
+[debug]   Load.apply: Def.make(settings)... took 1270.606292ms
+[debug]   Load.apply: structureIndex took 304.465458ms
+[debug]   Load.apply: mkStreams took 1.413417ms
+[info] loading global plugins from /Users/saianoop/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 9554.446625ms
+[debug]           Load.loadUnit: plugins took 41.088625ms
+[debug]           Load.loadUnit: defsScala took 0.003625ms
+[debug] [Loading] Scanning directory /Users/saianoop/Downloads/wikipedia/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/saianoop/Downloads/wikipedia/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.158833 ms
+[debug]               Load.resolveProject(wikipedia-build) took 4.240875ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id wikipedia-build, base: /Users/saianoop/Downloads/wikipedia/project, plugins: List(<none>))) took 16.868416ms
+[debug] [Loading] Done in /Users/saianoop/Downloads/wikipedia/project, returning: (wikipedia-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 24.48725ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.251ms
+[debug]         Load.loadUnit(file:/Users/saianoop/Downloads/wikipedia/project/, ...) took 66.985917ms
+[debug]       Load.apply: load took 74.353125ms
+[debug]       Load.apply: resolveProjects took 1.506917ms
+[debug]       Load.apply: finalTransforms took 36.717334ms
+[debug]       Load.apply: config.delegates took 1.658041ms
+[debug]       Load.apply: Def.make(settings)... took 397.821041ms
+[debug]       Load.apply: structureIndex took 89.286292ms
+[debug]       Load.apply: mkStreams took 0.002834ms
+[info] loading project definition from /Users/saianoop/Downloads/wikipedia/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1565.003875ms
+[debug]     Load.loadUnit: defsScala took 0.006916ms
+[debug] [Loading] Scanning directory /Users/saianoop/Downloads/wikipedia
+[debug]       Load.loadUnit: mkEval took 5.389417ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 8.84625 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 12.588458ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /Users/saianoop/Downloads/wikipedia, plugins: List(<none>))) took 23.907542ms
+[debug] [Loading] Done in /Users/saianoop/Downloads/wikipedia, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5527.544375ms
+[debug]     Load.loadUnit: cleanEvalClasses took 11.161417ms
+[debug]   Load.loadUnit(file:/Users/saianoop/Downloads/wikipedia/, ...) took 7105.356292ms
+[debug] Load.apply: load took 7114.730834ms
+[debug] Load.apply: resolveProjects took 0.885083ms
+[debug] Load.apply: finalTransforms took 28.820625ms
+[debug] Load.apply: config.delegates took 2.414292ms
+[debug] Load.apply: Def.make(settings)... took 279.654792ms
+[debug] Load.apply: structureIndex took 56.206ms
+[debug] Load.apply: mkStreams took 0.0235ms
+[info] set current project to wikipedia (in build file:/Users/saianoop/Downloads/wikipedia/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/saianoop/.sbt/1.0/server/b5b8c8a11c67ffd3b5a8/sock
+[debug] Writing bsp connection file
+[info] started sbt server
